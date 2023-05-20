@@ -77,7 +77,8 @@ Prompting the user to enter the number of tickets they want to book.
 
 Confirmation of the ticket booking, displaying the total cost and the cost including tax. It then prompts the user to enter the movie name they want to book tickets for, and if they enter "exit," the program ends.
 ![img.png](Screenshot_3.png)
-###Enjoy! 🎬
+
+### Enjoy! 🎬
 
 ## Resources 
 [w3schools](https://www.w3schools.com/python/python_lambda.asp) <br>
