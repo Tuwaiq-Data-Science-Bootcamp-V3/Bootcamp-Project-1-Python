@@ -1,33 +1,28 @@
-# Bootcamp-Project-1-Python
+# Expense Tracker
 
-#### Based on what you’ve learned until now, create a project of your choosing (impress us with your imagination). This project must at least satisfy the following minimum requirements:
+Expense Tracker is a python program the allow the user to track their expenses. You can add expenses, calculate total expenses for each month, view expense details, and generate monthly expense reports.
 
-- Use at least 3 different data types.
-- Use lists or dictionaries or tuples or sets.
-- Use loops.
-- Use functions that return an output.
-- Use conditions.
-- Use a Lambda function.
+## Features:
+
+- **Add Expense:** Adding expenes by providing the category ,amount , date ,description of the expense.
+- **Calculate Total Expenses:** Adding the totals of each month throughout a year.
+- **View Expense Details:**  Displays each expense with all of its details.
+- **Generate Expense Report:**  A bar chart the shows the totals of each month throughout a year.
+
+## How to Use:
+
+1. Run the `main()` function to start the Expense Tracker application.
+2. Select one of the following options (1-5):
+   - **1.Add Expense:** Fill in the expense details to add a new expense.
+   - **2.Calculate Total Expenses:** shows a list of the total expenses for each month.
+   - **3.View Expense Details:** Displays the details of each expense.
+   - **4.Generate Expense Report:** provides a graph of monthly expense data.
+   - **5.Exit:** Quit the program.
+
+## Dependencies:
+
+- Python 
+- `matplotlib` library (for generating charts)
 
 
-### Example: Riyadh Season Reservations
 
-#### Overview: An online website that shows different events. The visitor should be able to do the following tasks for the store to function properly. As a visitor, I should be able to do the following:
-
-- Browse Events.
-- View the event info (summary, time, price, place, etc.)
-- Search for an Event.
-- Get recommendations for my next visit based on my ticket purchase history.
-- Add tickets to the shopping cart.
-- Remove a ticket from the shopping cart.
-- List the tickets in my shopping cart.
-- Modify the number of the ticket (by default one ticket).
-- Continue to checkout.
-- Get a QR code for my ticket.
-- Review my coming events.
-
-#### Final Deliverables:
-- Notebook file(.ipynb).
-- README.md file.
-- Due Date: Sat, 20, at 09:00 p.m.
-- The Final presentation will be on Sunday (5 min for each one).
