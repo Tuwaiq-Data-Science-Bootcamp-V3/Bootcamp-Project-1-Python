@@ -31,3 +31,16 @@
 - README.md file.
 - Due Date: Sat, 20, at 09:00 p.m.
 - The Final presentation will be on Sunday (5 min for each one).
+
+
+### Project: MeshMaker
+
+#### Overview: A program that receives customers' orders for custom 3D models and animation. The customers should be able to do the following tasks for the store to function properly. As a customer, I should be able to do the following:
+
+- Browse 3D models.
+- View each model's info (image, description, price)
+- Order my own custom model.
+- Get an estimated price for my order.
+- Cancel my order.
+- Contact the MeshMaker team.
+- Get a QR code for my order summary.
