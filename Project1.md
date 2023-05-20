@@ -2,6 +2,8 @@
 
 The Fitness App is a simple application that allows users to track their workouts, set goals, and view their workout history.
 
+<img width="800" height="800" src="https://github.com/isazHfc/Bootcamp-Project-1-Python/blob/main/Picture1.png">
+
 ## Features
 
 The Fitness App provides the following features:
