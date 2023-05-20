@@ -1,33 +1,28 @@
-# Bootcamp-Project-1-Python
+# Bootcamp-Project-1-Python-Farah-Alosaimi
 
-#### Based on what you’ve learned until now, create a project of your choosing (impress us with your imagination). This project must at least satisfy the following minimum requirements:
+## cookies store program
 
-- Use at least 3 different data types.
-- Use lists or dictionaries or tuples or sets.
-- Use loops.
-- Use functions that return an output.
-- Use conditions.
-- Use a Lambda function.
+<img width="1000" height="400" alt="Screen Shot 1444-06-17 at 9 20 35 AM" src="cookies.png">
 
 
-### Example: Riyadh Season Reservations
 
-#### Overview: An online website that shows different events. The visitor should be able to do the following tasks for the store to function properly. As a visitor, I should be able to do the following:
+### Overview: An online website that shows different events. The visitor should be able to do the following tasks for the store to function properly. As a visitor, I should be able to do the following:
 
-- Browse Events.
-- View the event info (summary, time, price, place, etc.)
-- Search for an Event.
-- Get recommendations for my next visit based on my ticket purchase history.
-- Add tickets to the shopping cart.
-- Remove a ticket from the shopping cart.
-- List the tickets in my shopping cart.
-- Modify the number of the ticket (by default one ticket).
-- Continue to checkout.
-- Get a QR code for my ticket.
-- Review my coming events.
+The given code represents a cookie store program that allows users to view available cookie types, add cookies to a shopping cart, remove cookies from the cart, display the cart contents, calculate the total price of the cart, and exit the program.
 
-#### Final Deliverables:
-- Notebook file(.ipynb).
-- README.md file.
-- Due Date: Sat, 20, at 09:00 p.m.
-- The Final presentation will be on Sunday (5 min for each one).
+
+The program uses a dictionary called cookies to store available cookie types and their prices. The keys represent the cookie types, and the values represent their prices. There is also a list called cart to represent the shopping cart. Each item in the cart list is a tuple containing the cookie type and the quantity.
+
+### The code includes several functions:
+
+- isplay_cookie_types(sort_order): This function displays the available cookie types sorted by price in either ascending or descending order, based on the sort_order parameter.
+
+- add_to_cart(cookie_type, quantity): This function adds cookies to the cart. It checks if the given cookie_type is valid, and if so, adds the specified quantity of cookies to the cart.
+
+- remove_from_cart(cookie_type, quantity): This function removes cookies from the cart. It searches for the given cookie_type in the cart and removes the specified quantity of cookies if they exist. It also handles cases where the quantity is insufficient or the cookie type is not found.
+
+- display_cart(): This function displays the contents of the cart, showing the cookie types and their respective quantities.
+
+- calculate_total_price(): This function calculates the total price of the items in the cart based on the prices specified in the cookies dictionary.
+
+The main program loop allows users to select options from a menu by entering a number. Depending on the chosen option, the corresponding function is called to perform the desired action. The loop continues until the user selects the "Exit" option (number 7).
