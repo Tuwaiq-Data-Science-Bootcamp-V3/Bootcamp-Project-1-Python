@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="rbg.jpeg" alt="Image" width="200" height="150" />
+</p>
+
+
 ## Usage
 
 1. Enter your name when prompted. This will be your player name in the game.
