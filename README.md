@@ -23,7 +23,7 @@ A lambda function is used to calculate the tax on the total ticket cost. The tax
 tax = lambda amount: amount * 0.15
 ``` 
 
-##Displaying Available Movies
+## Displaying Available Movies
 The display_movies() function is responsible for showing the list of available movies to the user:
 ```python
 def display_movies():
@@ -31,7 +31,7 @@ def display_movies():
     for movie, price in movies.items():
         print("• " + movie + " - SAR" + str(price))
 ``` 
-##Booking Tickets
+## Booking Tickets
 The book_tickets() function is used to book tickets for a selected movie. It takes the movie name and the number of tickets as input. It then calculates the total cost, adds the tax amount, and displays the booking details:
 ```python
 def book_tickets(movie, num_tickets):
@@ -45,7 +45,7 @@ def book_tickets(movie, num_tickets):
     else:
         print("Sorry, the movie is not available.")
 ``` 
-##Main Program
+## Main Program
 The main program welcomes the user to the cinema booking system, displays the available movies using display_movies(), and prompts the user to enter the movie they want to book tickets for. It continues to take user input until the user chooses to exit:
 ```python
 print("Welcome to the Cinema Booking System!")
@@ -68,7 +68,7 @@ while True:
         print("Sorry, the movie is not available.")
 ``` 
 
-##Output:
+## Output:
 A welcoming message to the user, displaying the available movies.
 ![img.png](Screenshot_1.png)
 
@@ -79,7 +79,7 @@ Confirmation of the ticket booking, displaying the total cost and the cost inclu
 ![img.png](Screenshot_3.png)
 ###Enjoy! 🎬
 
-##Resources 
+## Resources 
 [w3schools](https://www.w3schools.com/python/python_lambda.asp) <br>
 [markdownguide](https://www.markdownguide.org/cheat-sheet/)
 
